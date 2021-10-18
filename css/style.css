@@ -22,8 +22,12 @@ textarea,
   font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif !important; }
 
 body {
-  background-color: #FFF;
-  color: #444;
+  background-color: #609dfd;
+  /*background-image:url(https://raw.githubusercontent.com/Moon-Pie/picture/master/chelsea_football_club-002.jpg);*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1.9;
+  color: #b3d0ff;
   font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
