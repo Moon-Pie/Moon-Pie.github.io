@@ -23,10 +23,9 @@ textarea,
 
 body {
   background-color: #609dfd;
-  /*background-image:url(https://raw.githubusercontent.com/Moon-Pie/picture/master/chelsea_football_club-002.jpg);*/
+  background: url(https://raw.githubusercontent.com/Moon-Pie/picture/master/chelsea_football_club-002.jpg) fixed;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 1.9;
   color: #b3d0ff;
   font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -36,7 +35,12 @@ body {
 .body_container {
   padding: 0 60px;
   max-width: 1150px;
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: white;
+  opacity: 0.75; }
 
 .content_container {
   padding-right: 50px;
